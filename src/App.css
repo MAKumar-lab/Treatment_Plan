@@ -1,0 +1,105 @@
+.app {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.buttons {
+  opacity: 0.7;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.treatments-card { background-color: #e6f3ff; }
+.add-ons-card { background-color: #f3e6ff; }
+.bonuses-card { background-color: #fff3e6; }
+
+.row-headers, .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.header-treatment-name, .treatment-name { flex: 3; }
+.header-price, .price { flex: 0 0 70px; }
+.header-count, .count { flex: 0 0 40px; }
+.header-total, .total { flex: 0 0 70px; }
+
+.summary-section {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.total-with-bonuses {
+  font-weight: bold;
+  color: #007bff;
+}
+
+input[type="number"] {
+  width: 70px;
+}
+
+.savings-input {
+  width: 70px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
